@@ -8,6 +8,7 @@
     "axios": "latest",
     "react": "latest",
     "react-dom": "latest",
+    "@reach-router": "latest",
     "react-favicon": "latest",
     "react-scripts": "latest",
     "uuid": "latest"
