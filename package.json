@@ -1,0 +1,51 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "Client setup for MERN app (frontend)",
+  "main": "index.js",
+  "dependencies": {
+    "@babel/runtime": "latest",
+    "axios": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-favicon": "latest",
+    "react-scripts": "latest",
+    "uuid": "latest"
+  },
+  "scripts": {
+    "start": "webpack serve --config webpack.dev.js --open",
+    "build": "webpack --config webpack.prod.js",
+    "test": "react-scripts test --env=jsdom",
+    "deploy": "webpack --config webpack.prod.js",
+    "eject": "react-scripts eject"
+  },
+  "keywords": [
+    "mern-client"
+  ],
+  "author": "Mehul Varshney",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "latest",
+    "@babel/plugin-transform-runtime": "latest",
+    "@babel/preset-env": "latest",
+    "@babel/preset-react": "latest",
+    "autoprefixer": "latest",
+    "babel-core": "latest",
+    "babel-loader": "latest",
+    "babel-plugin-transform-class-properties": "latest",
+    "css-loader": "latest",
+    "css-minimizer-webpack-plugin": "latest",
+    "eslint": "latest",
+    "eslint-plugin-react": "latest",
+    "file-loader": "latest",
+    "html-loader": "latest",
+    "html-webpack-plugin": "latest",
+    "mini-css-extract-plugin": "latest",
+    "style-loader": "latest",
+    "url-loader": "latest",
+    "webpack": "latest",
+    "webpack-cli": "latest",
+    "webpack-dev-server": "latest",
+    "webpack-merge": "latest"
+  }
+}
